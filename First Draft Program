@@ -1,0 +1,7 @@
+int main() {
+while (true) {
+    DriveLeft.spin(vex::directionType::fwd, Controller1.Axis3.value(), vex::velocityUnits::pct);
+    DriveRight.spin(vex::directionType::fwd, Controller1.Axis2.value(), vex::velocityUnits::pct)
+        vex::task::sleep(20);
+    }
+}
